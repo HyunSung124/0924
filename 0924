@@ -1,0 +1,35 @@
+#벌집
+# n = int(input())
+# layer = 1
+# num = 1
+# while num < n:
+#     layer += 1
+#     num += (layer - 1) * 6
+# print(layer)
+
+
+#달팽이상은올라가고싶다
+# a, b, v, = map(int,input().split())
+# pos = 0
+# day = 0
+# 
+# day = (v-b) / (a-b)
+# if day > int(day):
+#     print(int(day)+1)
+# else:
+#     print(int(day))
+
+
+#설탕을 배달해요:)
+# n = int(input())
+# cnt = 0
+# while n >= 0:
+#     if n % 5 == 0:
+#         break
+#     n -= 3
+#     cnt += 1
+# if n % 5 == 0:
+#     cnt += n //5
+# else:
+#     cnt = -1
+# print(cnt)
